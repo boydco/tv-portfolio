@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  display: none;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  display: none;
+}
+
+
+.tvBox {
+  background: url(https://res.cloudinary.com/boydco112/image/upload/v1532615156/television-old-shopped-missing-channel.png);
+  max-width: 800px;
+  width: 85%;
+  display: block;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 4em;
+  width: 800px;
+  height: 500px;
+  left: 0;
+  right: 0;
+}
+
+.tvBox img {
+  position: absolute;
+  right: 3.85em;
+  top: 3.5em;
+  width: 116px;
+}
+
+.tvContent {
+  max-width: 800px;
+  width: 85%;
+  display: block;
+  margin: auto;
+  margin-top: 106px;
+}
+
+.carousel img {
+  transform: rotate(180deg);
+  position: absolute;
+  right: 21.2em;
+  top: 7.35em;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
