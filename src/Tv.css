@@ -1,0 +1,26 @@
+
+.image-slide {
+  height: 350px;
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 6em;
+	transition: background-image .3s ease-in-out;
+}
+
+.tvArrow {
+  background: url('https://res.cloudinary.com/boydco112/image/upload/v1532821727/tvbutton-small-final.png');
+}
+
+.carousel div {
+  width: 95% !important;
+  height: 300px !important;
+  position: relative;
+  z-index: -1;
+}
+
+@media screen and (min-width: 500px) {
+  .carousel div {
+    width: 98% !important;
+    height: 370px !important;
+  }
+}

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Lazer84';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Lazer84'),
+    url('./fonts/Lazer84.ttf')  format('truetype')
+}
+
 .App {
   text-align: center;
 }
@@ -26,42 +35,80 @@
 
 
 .tvBox {
-  background: url(https://res.cloudinary.com/boydco112/image/upload/v1532615156/television-old-shopped-missing-channel.png);
-  max-width: 800px;
-  width: 85%;
+  background: url(https://res.cloudinary.com/boydco112/image/upload/v1532820512/tv-old-final.png);
+  /* max-width: 800px; */
+  min-width: max-content;
   display: block;
   margin: auto;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 4em;
-  width: 800px;
-  height: 500px;
+  top: 2.5em;
+  width: 340px;
+  height: auto;
+  min-height: 500px;
   left: 0;
   right: 0;
 }
 
 .tvBox img {
   position: absolute;
-  right: 3.85em;
-  top: 3.5em;
-  width: 116px;
+  right: 23.55px;
+  top: 163.5px;
+  width: 48.85px;
 }
 
 .tvContent {
   max-width: 800px;
-  width: 85%;
+  width: 280px;
   display: block;
   margin: auto;
-  margin-top: 106px;
+  margin-top: 126px;
 }
 
+
+@media screen and (min-width: 500px) {
+  .tvBox {
+    width: 500px;
+    top: 5.5em;
+  }
+
+  .tvContent {
+    width: 424px;
+  }
+
+  .tvBox img {
+    position: absolute;
+    right: 34px;
+    top: 122px;
+    width: 76px;
+  }
+
+}
+
+/* @media screen and (min-width: 900px) {
+  .tvBox {
+    width: 700px;
+  }
+
+  .tvContent {
+    width: 556px;
+  }
+
+  .tvBox img {
+    position: absolute;
+    right: 60.5px;
+    top: 78px;
+    width: 100.75px;
+  }
+} */
+
 .carousel img {
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
   position: absolute;
-  right: 21.2em;
-  top: 7.35em;
+  right: 136px;
+  top: 115px;
 }
 
 
